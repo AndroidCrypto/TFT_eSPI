@@ -1,3 +1,18 @@
+# Note by AndroidCrypto
+
+This is the forked **TFT_eSPI** repository based on **version 2.5.43** without any modifications. 
+
+If you want to run a TFT display with Arduino - ESP32 Boards version 3.x.x and above you need to modify the library by exchanging some files. The same applies when you want to work with **ESP32-C6** and **ESP32-H2** devices because they are available on ESP32 Boards 3.x.x onwards.
+
+All modified files are located in the "modified" folder of this repository and are tested with ESP32 Boards version 3.0.7.
+
+## Modification of the library
+
+The library is installed in the "libraries" folder of your Arduino sketch folder in the "TFT_eSPI" subfolder. There is a folder called "Processors" where you find the processor specific **"*.h"** and **"*.c"** files.
+
+
+# Original Description
+
 A ["Discussions"](https://github.com/Bodmer/TFT_eSPI/discussions) facility has been added for Q&A etc. Use the ["Issues"](https://github.com/Bodmer/TFT_eSPI/issues) tab only for problems with the library. Thanks!
 # News
 1. The Create_font Processing sketch has been updated to automatically create a complete C header file. The automatic opening of the font folder can also be disabled within the Processing sketch. (Thanks to Pierre-Loup Martin).
