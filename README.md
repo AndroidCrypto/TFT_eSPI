@@ -8,6 +8,18 @@ All modified files are located in the "modified" folder of this repository and a
 
 ## Modification of the library
 
+### ESP32-C3 | ESP32-C6 | ESP32-H2 processors
+
+I found the files to get changed in [issue #3438 ("SP32 Board Package 3.0.x and ESP32-C6 and ESP32-H2 works for me with modifications of TFT_eSPI 2.5.43")](https://github.com/Bodmer/TFT_eSPI/issues/3438). The author **mboehmerm** is providing the changed files in his repository "[https://github.com/mboehmerm/Three-IPS-Displays-with-ST7789-170x320-240x280-240x320/](https://github.com/mboehmerm/Three-IPS-Displays-with-ST7789-170x320-240x280-240x320/)" - here are the direct links for the files, the files are uploaded in the "modified" folder of this repository as well:
+
+Change these files in the root folder of the library:
+- [TFT_eSPI.h](https://github.com/mboehmerm/Three-IPS-Displays-with-ST7789-170x320-240x280-240x320/blob/main/ESP32_H2/Arduino/libraries/TFT_eSPI/TFT_eSPI.h)
+- [TFT_eSPI.cpp](https://github.com/mboehmerm/Three-IPS-Displays-with-ST7789-170x320-240x280-240x320/blob/main/ESP32_H2/Arduino/libraries/TFT_eSPI/TFT_eSPI.cpp)
+
+Change these files in the Processors folder of the library
+- [TFT_eSPI_ESP32_C3.h](https://github.com/mboehmerm/Three-IPS-Displays-with-ST7789-170x320-240x280-240x320/blob/main/ESP32_H2/Arduino/libraries/TFT_eSPI/Processors/TFT_eSPI_ESP32_C3.h)
+- [TFT_eSPI_ESP32_C3.c](https://github.com/mboehmerm/Three-IPS-Displays-with-ST7789-170x320-240x280-240x320/blob/main/ESP32_H2/Arduino/libraries/TFT_eSPI/Processors/TFT_eSPI_ESP32_C3.c)
+
 The library is installed in the "libraries" folder of your Arduino sketch folder in the "TFT_eSPI" subfolder. There is a folder called "Processors" where you find the processor specific **"*.h"** and **"*.c"** files.
 
 
