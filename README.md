@@ -24,7 +24,11 @@ Exchange these files in the Processors folder of the library
 
 ### ESP32-S3 processor
 
-Note: up to now I have no modifications available to run an ESP32-S3 board with Arduino core 3.x.x and above, sorry.
+You don't need any modifications to run the library with an ESP32-S3 board with Arduino core 3.x.x, but have to use the 
+
+    #define USE_HSPI_PORT
+
+setting in your "User_Setups" settings file.    
 
 # Original Description
 
