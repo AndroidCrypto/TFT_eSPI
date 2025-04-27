@@ -32,7 +32,7 @@ setting in your "User_Setups" settings file.
 
 ## Processor and Display specific Setup Files
 
-This library can use dedicated files for a "processor - board - display" combinations, so you can save the combination and use it for a later usage. The folder "My_User_Setups" contain the combinations for ESP32-C3 Supermini, ESP32-C6 Supermini, ESP32-C6 Waveshare, ESP32-H2 Supermini and ESP32-S3 Supermini in combination with TFT displays of types "ST7735" and "ST7789". Please copy a file to the User_Setups folder of the library and reference the file in the "User_Setups" folder.
+This library can use dedicated files for a "processor - board - display" combinations, so you can save the combination and use it for a later usage. The folder "My_User_Setups" contain the combinations for ESP32-C3 Supermini, ESP32-C6 Supermini, ESP32-C6 Waveshare, ESP32-H2 Supermini and ESP32-S3 Supermini in combination with TFT displays of types "ST7735" and "ST7789". Please copy a file to the User_Setups folder of the library and reference the file in the "User_Setups" folder in the User_Setup_Select.h file.
 
 # Original Description
 
