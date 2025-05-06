@@ -26,13 +26,13 @@
 //#define TFT_INVERSION_OFF
 //#define TFT_BACKLIGHT_ON 1
 
-//#define TFT_BL   18   // 18 // LED back-light  // TFT_BL -1 gibt Fehlermeldung bei verbose
-#define TFT_MISO    3   //  5 // Not used
-#define TFT_MOSI    4   // = SDA 6 // 17 HSPI ?
-#define TFT_SCLK    2   //  4 // 18 HSPI ?
-#define TFT_CS      5 
-#define TFT_DC     1
-#define TFT_RST    0   // Set TFT_RST to -1 if display RESET is connected to ESP32 board EN
+//#define TFT_BL 5  // LED back-light
+#define TFT_MISO 20 //  not used/connected
+#define TFT_MOSI 6  // = SDA
+#define TFT_SCLK 7
+#define TFT_CS   21 
+#define TFT_DC   10
+#define TFT_RST  9  // Set TFT_RST to -1 if display RESET is connected to ESP32 board EN
 
 #define LOAD_GLCD   // Font 1. Original Adafruit 8 pixel font needs ~1820 bytes in FLASH
 #define LOAD_FONT2  // Font 2. Small 16 pixel high font, needs ~3534 bytes in FLASH, 96 characters
