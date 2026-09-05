@@ -6,6 +6,8 @@ If you want to run a TFT display with Arduino - ESP32 Boards version 3.x.x and a
 
 All modified files are located in the "modified" folder of this repository and are tested with ESP32 Boards version 3.0.7.
 
+**Update Sep. 2026**: in folder **modified_C5** you find the files for **ESP32-S3**, **ESP32-C3**, **ESP32-C5**, **ESP32-C6** and **ESP32-H2** boards
+
 ## Modification of the library
 
 The library is installed in the "libraries" folder of your Arduino sketch folder in the "TFT_eSPI" subfolder. There is a folder called "Processors" where you find the processor specific **"*.h"** and **"*.c"** files.
